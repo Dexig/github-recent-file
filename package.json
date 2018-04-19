@@ -1,0 +1,37 @@
+{
+  "name": "github-recent-file",
+  "version": "0.0.0",
+  "description": "Fetch recent file content from pull-request event payload",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha \"lib/**/*.test.js\"",
+    "lint": "eslint lib/**/*.js test/**/*.js *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dexig/github-recent-file.git"
+  },
+  "keywords": [
+    "github",
+    "pull-request",
+    "file",
+    "content"
+  ],
+  "author": "Oleg <dexig@mail.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dexig/github-recent-file/issues"
+  },
+  "homepage": "https://github.com/Dexig/github-recent-file#readme",
+  "dependencies": {
+    "debug": "3.1.0",
+    "es6-error": "4.1.1"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "chai-as-promised": "7.1.1",
+    "eslint": "4.19.1",
+    "mocha": "5.1.1",
+    "sinon": "4.5.0"
+  }
+}
